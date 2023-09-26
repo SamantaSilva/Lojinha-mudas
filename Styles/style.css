@@ -1,0 +1,31 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("conteudo.css");
+@import url("footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-cabecalho: #28552e;
+    --cor-banner: #f8f5f5;
+    --cor-texto:#6baa73;
+    --cor-titulo:#22642b;;
+    --font-segundaria: 'Sarala', sans-serif;
+    --font-principal:'Rigtheous', sans-serif;
+    --cor-branco: white;
+    --cor-verde: #256e30;
+    --cor-branco-claro:#F2F2F2;
+    --cor-cinza:rgb(87, 88, 87);
+    --cor-cinza-escuro: rgb(5, 5, 5);
+
+}
+  
+@media (max-width:1200px) {
+    
+}
+

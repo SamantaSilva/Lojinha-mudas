@@ -1,0 +1,111 @@
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7em;
+    background-image: url(../img/v850-aum-09b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative ;
+    
+
+
+}
+
+.conteudo__escrito{
+    padding-right: 10em;
+    
+}
+
+.conteudo__titulo{
+    font-size: 20px;
+    width: 500;
+    color: var(--cor-verde);
+    padding-bottom: 1em;
+    font-family: var(--font-primaria);
+}
+
+.conteudo__paragrafo{
+   font-family: var(--fon-segundaria);
+   font-size: 20px ;
+   width: 300;
+
+}
+
+.conteudo__imagem{
+    height: 230px;
+
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-image: url(../img/v850-aum-09b.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative ;
+    
+}
+.produtos__imagens{
+    text-align: center;
+    padding: 2em;
+  
+    
+}
+
+.produtos__texto{
+    font-size: 14px;
+    color: var(--cor-verde);
+    font-family: var(--font-primaria);
+    width: 400;
+    
+
+
+}
+
+  .produtos__imagem{
+    height: 300px;
+    flex-wrap: wrap;
+}  
+
+.conteudo__terciario{
+    display: block;
+    padding: 10em;
+    padding-top: 1em;
+    background-image: url(../img/v850-aum-09b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative ;
+   
+}
+
+.conteudo__terciario_titulo{
+    padding-top: 2em;
+    margin-bottom: 1em;
+    color: var(--cor-cinza-escuro);
+    font-family: var(--font-segundaria);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 35%;
+}
+
+  
+.conteudo__terciario_texto{
+    padding:0.5em;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--font-segundaria);
+    color: var(--cor-cinza);
+    margin-left: 35%;
+}
+
+
+
+
+
+
+

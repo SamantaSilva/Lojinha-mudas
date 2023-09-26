@@ -1,0 +1,24 @@
+.banner{
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 3em;
+    background-color: var(--cor-banner);
+
+}
+.banner__titulo{
+    font-size: 44px;
+    font-family: var(--font-principal);
+    color: var(--cor-titulo);
+    width: 600;
+    padding-bottom: 0.5em;
+    
+}
+
+.banner__subtitulo{
+    font-family: var(--font-principal);
+    font-size: 24px;
+    color: var(--cor-texto);
+}
+

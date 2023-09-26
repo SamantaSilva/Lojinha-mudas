@@ -1,0 +1,25 @@
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    display: flex;
+    justify-content: center;
+    padding: 2em;   
+
+}
+
+.cabecalho__navegacao{
+    display: flex;
+    font-size: 16px;
+    font-family: var(--font-segundaria);
+    width: 300;
+    gap: 24px;
+
+}
+
+.cabecalho__link{
+    color:var(--cor-branco);
+    text-decoration: none;
+}
+
+.cabecalho__navegacao :hover{
+    color: rgb(183, 235, 183);
+}
